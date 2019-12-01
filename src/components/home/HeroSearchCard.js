@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
+import HeroSearchResultsCard from "./HeroSearchResultsCard";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -20,6 +21,7 @@ const HeroListCard = () => {
         This is a full list of all the available heroes to battle with. The
         heroes are all pulled from the Super Hero API.
       </Typography>
+      <HeroSearchResultsCard />
     </Paper>
   );
 };
