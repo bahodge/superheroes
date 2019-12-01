@@ -15,11 +15,12 @@
 
 Create a web application using only create react and node. Don't have a backend for persisted data. Store state in flux or redux depending on what I choose. Use some UI theme for styling (because I'm trash at it). Pull data from the super hero database. Use the pulled data to simulate a battle between 2+ chosen heroes.
 
-Views: 
-Home => List of all heroes
-Detailed Hero => Hero stats, bio, details...
-Battle => Search Heroes, add them to teams
-Results => The results of the battle
+Views:
+
+- Home => List of all heroes
+- Detailed Hero => Hero stats, bio, details...
+- Battle => Search Heroes, add them to teams
+- Results => The results of the battle
 
 ### Phase 1
 
