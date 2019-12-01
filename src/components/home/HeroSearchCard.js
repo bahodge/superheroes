@@ -15,11 +15,10 @@ const HeroListCard = () => {
   return (
     <Paper className={styles.root}>
       <Typography variant="h5" component="h3">
-        All Heros
+        Hero Search
       </Typography>
       <Typography>
-        This is a full list of all the available heroes to battle with. The
-        heroes are all pulled from the Super Hero API.
+        Search for a particular hero to examine their details
       </Typography>
       <HeroSearchResultsCard />
     </Paper>
