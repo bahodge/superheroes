@@ -1,12 +1,8 @@
 import React, { Component } from "react";
-import HeroList from "../components/home/HeroList";
+import HeroListCard from "../components/home/HeroListCard";
 
 export default class Home extends Component {
   render() {
-    return (
-      <div>
-        <HeroList />
-      </div>
-    );
+    return <HeroListCard />;
   }
 }
